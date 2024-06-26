@@ -8,10 +8,10 @@ body {
   background-color: #f1f2f3;
 }
 
-@mixin slide-left {
-  animation: slide-left 5s;
-  -webkit-animation: slide-left 5s;
-}
+// @mixin slide-left {
+//   animation: slide-left 5s;
+//   -webkit-animation: slide-left 5s;
+// }
 
 .slide-left {
   position: relative;
