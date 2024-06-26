@@ -1,7 +1,7 @@
 @import "helper/variables";
 @import "helper/animations";
 @import "helper/placeholder";
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 
 body {
@@ -17,7 +17,7 @@ body {
 .slide-left {
   position: relative;
   left: 50%;
-  @include slide-left;
+  @extend %slide-left;
 }
 
 
